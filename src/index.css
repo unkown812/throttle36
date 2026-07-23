@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-beige: #E3E2DE;
+    --text-dark: #1B0E0D;
+    --accent-red: #C72A09;
+    --accent-neon: #31EF07;
+    --accent-brown: #61220F;
+    --border-gray: #D9D9D9;
+  }
+
+  body {
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--bg-beige);
+    color: var(--text-dark);
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 700;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Neon Underline Animation for Links */
+.hover-neon-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.hover-neon-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #31EF07;
+  transform-origin: bottom right;
+  transition: transform 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hover-neon-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Noise overlay canvas style */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Custom Scrollbar for brutalist technical feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1B0E0D;
+}
+::-webkit-scrollbar-thumb {
+  background: #C72A09;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #31EF07;
+}
+
+/* Brutalist sharp borders */
+.border-sharp {
+  border-radius: 0px !important;
+}
+
+/* Marquee ribbon animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
