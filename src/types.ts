@@ -4,7 +4,7 @@
 
 export interface InspectionCategory {
   category: string;
-  score: number; // e.g. 100%
+  score: number; 
   status: 'PASSED' | 'VERIFIED' | 'OPTIMAL';
   items: {
     name: string;
@@ -18,8 +18,8 @@ export interface Superbike {
   title: string;
   brand: 'Kawasaki' | 'BMW' | 'Ducati' | 'Yamaha' | 'Aprilia' | 'Honda' | 'MV Agusta';
   year: number;
-  priceLakh: number; // e.g. 15.5 (Lakh INR)
-  priceRaw: number; // e.g. 1550000
+  priceLakh: number; 
+  priceRaw: number; 
   engineCC: number;
   powerBHP: number;
   kmDriven: number;
