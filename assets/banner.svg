@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="THROTTLE26 — Season 04 Superbike Studio">
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .disp { font-family: 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 900; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="640" fill="#1B0E0D"/>
+
+  <!-- Noise-ish fine grid -->
+  <g stroke="#E3E2DE" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 80 H1280 M0 160 H1280 M0 240 H1280 M0 320 H1280 M0 400 H1280 M0 480 H1280 M0 560 H1280"/>
+    <path d="M80 0 V640 M160 0 V640 M240 0 V640 M320 0 V640 M400 0 V640 M480 0 V640 M560 0 V640 M640 0 V640 M720 0 V640 M800 0 V640 M880 0 V640 M960 0 V640 M1040 0 V640 M1120 0 V640 M1200 0 V640"/>
+  </g>
+
+  <!-- Top metadata strip -->
+  <text x="64" y="84" class="mono" font-size="16" letter-spacing="4" fill="#31EF07">// SEASON 04 — PRE-OWNED SUPERBIKE STUDIO</text>
+
+  <!-- Neon pulse dot -->
+  <circle cx="64" cy="132" r="7" fill="#31EF07"/>
+  <text x="84" y="138" class="mono" font-size="16" letter-spacing="3" fill="#E3E2DE" fill-opacity="0.7">GURUGRAM · PAN-INDIA DELIVERY · 150-PT CERTIFIED</text>
+
+  <!-- Title -->
+  <text x="58" y="300" class="disp" font-size="180" letter-spacing="-6" fill="#E3E2DE">THROTTLE<tspan fill="#31EF07">26</tspan></text>
+
+  <!-- Tagline -->
+  <text x="64" y="372" class="disp" font-size="34" letter-spacing="2" fill="#C72A09">HIGH-FASHION BRUTALIST SUPERBIKE MARKETPLACE</text>
+
+  <!-- Rev gauge decoration -->
+  <g transform="translate(1010,360)">
+    <circle r="150" fill="none" stroke="#E3E2DE" stroke-opacity="0.15" stroke-width="2"/>
+    <circle r="150" fill="none" stroke="#31EF07" stroke-width="6" stroke-dasharray="880 942" stroke-dashoffset="0" transform="rotate(-90)"/>
+    <text x="0" y="-6" text-anchor="middle" class="disp" font-size="56" fill="#E3E2DE">299</text>
+    <text x="0" y="34" text-anchor="middle" class="mono" font-size="18" letter-spacing="3" fill="#E3E2DE" fill-opacity="0.6">KM/H</text>
+  </g>
+
+  <!-- Bottom ribbon -->
+  <rect x="0" y="560" width="1280" height="80" fill="#C72A09"/>
+  <text x="64" y="608" class="mono" font-size="20" letter-spacing="3" fill="#1B0E0D">CERTIFIED INVENTORY · INSTANT VALUATION · EMI FINANCING · TEST RIDE BOOKING</text>
+</svg>
