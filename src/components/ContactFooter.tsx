@@ -68,7 +68,7 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#C72A09] shrink-0" />
-                <a href="mailto:hello@throttle36.com" className="hover:text-[#C72A09]">hello@throttle36.com</a>
+                <a href="mailto:hello@THROTTLE26.com" className="hover:text-[#C72A09]">hello@THROTTLE26.com</a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#C72A09] shrink-0 mt-0.5" />
@@ -92,8 +92,8 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({
             </h3>
             <ul className="space-y-2 font-mono text-xs uppercase text-[#1B0E0D]/80">
               <li>
-                <a href="https://instagram.com/throttle36_" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-[#C72A09]">
-                  <Instagram className="w-4 h-4" /> Instagram (@throttle36_)
+                <a href="https://instagram.com/THROTTLE26_" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-[#C72A09]">
+                  <Instagram className="w-4 h-4" /> Instagram (@THROTTLE26_)
                 </a>
               </li>
               <li>
@@ -118,7 +118,7 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({
               Experience the machines in person. Walk-ins and track bookings welcome 24 hours a day at our Gurugram flagship studio.
             </p>
             <a 
-              href="https://maps.google.com/?q=Throttle36+Gurugram" 
+              href="https://maps.google.com/?q=THROTTLE26+Gurugram" 
               target="_blank" 
               rel="noreferrer"
               className="inline-flex items-center gap-2 bg-[#1B0E0D] text-[#E3E2DE] hover:bg-[#C72A09] font-mono text-xs font-bold uppercase px-4 py-2.5 transition-colors"
@@ -132,14 +132,14 @@ export const ContactFooter: React.FC<ContactFooterProps> = ({
 
         {/* Bottom Copyright Bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between font-mono text-xs text-[#1B0E0D]/60 gap-2">
-          <div>© 2026 THROTTLE36. ALL RIGHTS RESERVED.</div>
+          <div>© 2026 THROTTLE26. ALL RIGHTS RESERVED.</div>
           <div>SEASON 04 BRUTALIST DESIGN SYSTEM // GURUGRAM, INDIA</div>
         </div>
 
         {/* Massive Ghost Title at Very Bottom */}
         <div className="pt-8 text-center overflow-hidden">
           <div className="font-display text-[14vw] sm:text-[12vw] lg:text-[10vw] font-extrabold text-[#D9D9D9] uppercase tracking-tighter leading-none select-none">
-            THROTTLE36
+            THROTTLE26
           </div>
         </div>
 

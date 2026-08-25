@@ -19,7 +19,7 @@ export const TestimonialsSection: React.FC = () => {
           </div>
 
           <p className="font-mono text-xs text-[#E3E2DE]/70 max-w-xs">
-            REAL TESTIMONIALS FROM RIDERS ACROSS INDIA WHO TRUSTED THROTTLE36.
+            REAL TESTIMONIALS FROM RIDERS ACROSS INDIA WHO TRUSTED THROTTLE26.
           </p>
         </div>
 

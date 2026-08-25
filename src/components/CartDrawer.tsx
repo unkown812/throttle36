@@ -118,7 +118,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 DEPOSIT PAYMENT SUCCESSFUL!
               </h3>
               <p className="font-mono text-xs text-[#E3E2DE]/80">
-                Machine reservation confirmed for 48 hours. Your dedicated Throttle36 Concierge will contact you shortly.
+                Machine reservation confirmed for 48 hours. Your dedicated THROTTLE26 Concierge will contact you shortly.
               </p>
             </div>
 

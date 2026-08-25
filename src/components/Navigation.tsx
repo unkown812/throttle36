@@ -53,7 +53,7 @@ export const Navigation: React.FC<NavigationProps> = ({
             href="#" 
             className="font-display text-2xl md:text-3xl font-extrabold tracking-tighter uppercase text-[#E3E2DE] flex items-center gap-2 group"
           >
-            <span>THROTTLE36</span>
+            <span>THROTTLE26</span>
             <span className="text-[10px] font-mono px-1.5 py-0.5 bg-[#E3E2DE] text-[#1B0E0D] font-bold group-hover:bg-[#31EF07] transition-colors">
               S-04
             </span>

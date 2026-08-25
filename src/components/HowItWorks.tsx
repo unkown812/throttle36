@@ -44,7 +44,7 @@ export const HowItWorks: React.FC = () => {
               // TRANSPARENT PROCESS
             </span>
             <h2 className="font-display text-4xl sm:text-5xl font-extrabold uppercase tracking-tight text-[#E3E2DE] mt-1">
-              HOW THROTTLE36 WORKS
+              HOW THROTTLE26 WORKS
             </h2>
           </div>
 

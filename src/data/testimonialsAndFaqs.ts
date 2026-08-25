@@ -23,7 +23,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: 'test-3',
     name: 'Amit Sinha',
     location: 'Bengaluru, Karnataka',
-    quote: 'There are many superbike dealers in the market, but Throttle36 is giving very neat and clean deals with complete transparency.',
+    quote: 'There are many superbike dealers in the market, but THROTTLE26 is giving very neat and clean deals with complete transparency.',
     bikeBought: 'BMW S 1000 RR',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop'
@@ -54,7 +54,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     id: 'faq-3',
-    question: 'Can I sell my superbike to Throttle36?',
+    question: 'Can I sell my superbike to THROTTLE26?',
     answer: 'Absolutely. We offer competitive market valuations with instant payout upon physical evaluation and document verification. You can also opt for our high-visibility consignment sales model.',
     category: 'SELLING'
   },

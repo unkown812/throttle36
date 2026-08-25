@@ -18,7 +18,7 @@ export const CategoryDivider: React.FC<CategoryDividerProps> = ({
             SEASON 04 //
           </span>
           <span className="font-display text-[11vw] sm:text-[10vw] font-bold text-[#1B0E0D] tracking-tighter leading-none uppercase px-4">
-            THROTTLE36 STUDIO //
+            THROTTLE26 STUDIO //
           </span>
         </div>
         <div className="animate-marquee flex items-center shrink-0" aria-hidden="true">
@@ -29,7 +29,7 @@ export const CategoryDivider: React.FC<CategoryDividerProps> = ({
             SEASON 04 //
           </span>
           <span className="font-display text-[11vw] sm:text-[10vw] font-bold text-[#1B0E0D] tracking-tighter leading-none uppercase px-4">
-            THROTTLE36 STUDIO //
+            THROTTLE26 STUDIO //
           </span>
         </div>
       </div>

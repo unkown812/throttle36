@@ -55,7 +55,7 @@ export const NewsletterSection: React.FC = () => {
         ) : (
           <div className="p-4 bg-[#31EF07]/10 border border-[#31EF07] flex items-center gap-3 font-mono text-xs text-[#31EF07]">
             <CheckCircle2 className="w-5 h-5 shrink-0" />
-            <span>YOU HAVE BEEN ADDED TO THE THROTTLE36 VIP SUPERBIKE DISPATCH LIST.</span>
+            <span>YOU HAVE BEEN ADDED TO THE THROTTLE26 VIP SUPERBIKE DISPATCH LIST.</span>
           </div>
         )}
 

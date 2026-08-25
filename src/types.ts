@@ -1,5 +1,5 @@
 /**
- * Types definition for THROTTLE36 Season 04 Superbike Studio
+ * Types definition for THROTTLE26 Season 04 Superbike Studio
  */
 
 export interface InspectionCategory {

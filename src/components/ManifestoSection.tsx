@@ -18,7 +18,7 @@ export const ManifestoSection: React.FC = () => {
             MANIFESTO // SEASON 04
           </span>
           <p className="font-mono text-xs text-[#1B0E0D]/70 mt-2 max-w-xs">
-            THROTTLE36 PHILOSOPHY ON HIGH-PERFORMANCE PRE-OWNED MACHINES.
+            THROTTLE26 PHILOSOPHY ON HIGH-PERFORMANCE PRE-OWNED MACHINES.
           </p>
           
           <div className="mt-8 space-y-2 font-mono text-xs text-[#1B0E0D]/80">
@@ -46,7 +46,7 @@ export const ManifestoSection: React.FC = () => {
           className="md:col-span-8"
         >
           <p className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-[42px] uppercase font-semibold leading-[1.12] tracking-tight indent-12 text-[#1B0E0D]">
-            WE REJECT THE CLUTTER OF STANDARD DEALERSHIPS. <span className="text-[#61220F]">THROTTLE36 WAS BUILT ON UNCOMPROMISING TRANSPARENCY</span> AND PURE ENGINE PASSION. EVERY SUPERBIKE IS CURATED LIKE A FINE PIECE OF ENGINEERING ART.
+            WE REJECT THE CLUTTER OF STANDARD DEALERSHIPS. <span className="text-[#61220F]">THROTTLE26 WAS BUILT ON UNCOMPROMISING TRANSPARENCY</span> AND PURE ENGINE PASSION. EVERY SUPERBIKE IS CURATED LIKE A FINE PIECE OF ENGINEERING ART.
           </p>
 
           <p className="font-display text-xl sm:text-2xl md:text-3xl uppercase font-medium leading-[1.18] tracking-tight indent-12 text-[#1B0E0D]/90 mt-8">
