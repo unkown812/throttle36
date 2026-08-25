@@ -20,7 +20,7 @@ A single-page web studio for buying, valuing, and financing certified pre-owned 
 </div>
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="THROTTLE26 — Season 04 Superbike Studio banner" width="100%">
+  <img src="./assets/hero.png" alt="THROTTLE26 — Season 04 Superbike Studio banner" width="100%">
 </p>
 
 ---
