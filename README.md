@@ -8,12 +8,12 @@
 
 A single-page web studio for buying, valuing, and financing certified pre-owned superbikes. Built as a client-rendered **React + TypeScript + Vite + Tailwind CSS** application with a distinctive brutalist editorial design system.
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+<!-- ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?logo=tailwindcss&logoColor=white)
 ![Motion](https://img.shields.io/badge/Motion-12-black)
-![lucide-react](https://img.shields.io/badge/lucide--react-Icons-F56565?logo=lucide&logoColor=white)
+![lucide-react](https://img.shields.io/badge/lucide--react-Icons-F56565?logo=lucide&logoColor=white) -->
 
 [Overview](#project-overview) • [Key Features](#key-features) • [Architecture](#architecture) • [Installation](#installation) • [Tech Stack](#technology-stack) • [License](#license)
 
@@ -137,7 +137,7 @@ A live product screenshot set is **not included in the repository**. The banner 
 
 ### Clone
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/unkown812/throttle26
 cd throttle36
 ```
 
